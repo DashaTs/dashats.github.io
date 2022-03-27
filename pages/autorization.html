@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Modoki_Mokona | Авторизация</title>
+    <link rel="icon" href="../images/logo.png">
+    <style>
+        body {
+            background: url('../images/back.jpg');
+            background-size: cover;
+        } 
+
+        nav {
+            background: #f9defcb6;
+            padding: 12px;
+            border-left: 6px solid #db34b7;   
+        }
+
+        .block {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav><a href="../index.html" title="Главная">Главная</a> | <a href="Обо мне">Обо мне</a> | <a href="gallery.html" title="Галлерея">Галлерея</a> | <a href="contact.html" title="Контакты">Контакты</a></nav>
+    <body>
+        <form action="https://fom.in.ua/echo" method="post">
+          <fieldset style="width: 400px">
+            <legend style="color: #db34b7">
+              <h2>Вход на сайт Modoki_Mokona</h2>
+            </legend>
+            <div class="block">
+              <label>
+                <b>E-mail: </b><input type="email" name="email" placeholder="email@example.com" required>
+              </label> 
+            </div>
+            <div class="block">
+              <label>
+                <b>Пароль: </b><input type="password" name="password" required>
+              </label>
+            </div>
+            <div class="block">
+              <label style="color: black;">
+                <input type="checkbox" name="remember_me"> Запомнить меня
+              </label>
+            </div>
+            <input type="submit" name="btn_enter" value="Вход"> 
+          </fieldset>
+        </form>
+      </body>   
+      </html>
+</body>
+</html>
